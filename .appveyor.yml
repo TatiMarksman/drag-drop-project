@@ -1,0 +1,18 @@
+version: 1.0.{build}
+
+environment:
+  nodejs_version: "18"
+
+install:
+  - ps: Install-Product node $env:nodejs_version
+  - yarn install
+
+build_script:
+  - yarn build
+
+test_script:
+  - yarn test
+
+branches:
+  only:
+    - master 

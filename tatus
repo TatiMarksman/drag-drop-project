@@ -1,0 +1,6 @@
+[33mf2d987f[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m)[m Fix AppVeyor build issues and update badge URL
+[33m8d21fd4[m Clean up project structure and add testing
+[33m79d6f07[m Update README.md to English and add AppVeyor badge
+[33m3ad4fbd[m Add AppVeyor CI config
+[33m2dc49b2[m Fix AppVeyor build issues: switch from yarn to npm, update dependencies
+[33m2ee54d1[m Initial commit
