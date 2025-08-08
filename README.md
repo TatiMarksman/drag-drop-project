@@ -36,8 +36,3 @@ Then open:
 ```bash
 yarn build
 ```
-
-## Live Demo
-
-- [Trello Board](https://TatiMarksman.github.io/drag-drop-project/)
-- [Image Uploader](https://TatiMarksman.github.io/drag-drop-project/uploader.html)
