@@ -1,53 +1,40 @@
-# Drag & Drop Projesi - Trello Board + Resim Yöneticisi
+# Drag & Drop Project
 
-Bu proje Netology'nin "6. Working with files, DnD" ödevini tamamlamak için geliştirildi. İki farklı uygulama içeriyor: bir Trello benzeri kanban board ve modern bir resim yükleyici.
+A simple drag and drop project with two applications: a Trello-like board and an image uploader.
 
-## 🎯 Ne Yapıyor?
+## What's included
 
 ### Trello Board
-- 3 sütunlu kanban board (TODO, IN PROGRESS, DONE)
-- Kart ekleme/silme
-- Sürükle-bırak ile kart taşıma
-- LocalStorage'da durum saklama
-- Sayfa yenilendikten sonra durumu koruma
+- 3 columns (TODO, IN PROGRESS, DONE)
+- Add and delete cards
+- Drag and drop cards between columns
+- Saves state to localStorage
 
-### Resim Yöneticisi  
-- Sürükle-bırak ile resim yükleme
-- Tıklayarak dosya seçme
-- Çoklu dosya seçimi
-- Resim önizleme
-- Yüklenen resimleri silme
+### Image Uploader
+- Drag and drop image upload
+- Click to select files
+- Multiple file selection
+- Image preview
+- Delete uploaded images
 
-## 🚀 Nasıl Çalıştırılır?
+## How to run
 
 ```bash
-# Bağımlılıkları yükle
-yarn
-
-# Geliştirme sunucusunu başlat
+yarn install
 yarn start
 ```
 
-Sonra tarayıcında şu adreslere git:
+Then open:
 - http://localhost:3000/ → Trello Board
-- http://localhost:3000/uploader.html → Resim Yöneticisi
+- http://localhost:3000/uploader.html → Image Uploader
 
-## 📦 Production Build
+## Build
 
 ```bash
 yarn build
 ```
 
-## 🔗 Canlı Demo
+## Live Demo
 
 - [Trello Board](https://TatiMarksman.github.io/drag-drop-project/)
-- [Resim Yöneticisi](https://TatiMarksman.github.io/drag-drop-project/uploader.html)
-
-## 🛠 Kullanılan Teknolojiler
-
-- JavaScript (ES6+)
-- HTML5
-- CSS3  
-- Webpack
-- LocalStorage API
-- Drag & Drop API
+- [Image Uploader](https://TatiMarksman.github.io/drag-drop-project/uploader.html)
