@@ -1,5 +1,8 @@
 # Drag & Drop Project
 
+[![Build status](https://ci.appveyor.com/api/projects/status/bet9h72ue90ht4w7?svg=true)](https://ci.appveyor.com/project/TatiMarksman/drag-drop-project-bmogd)  
+[**GitHub Pages**](https://TatiMarksman.github.io/drag-drop-project/)
+
 A simple drag and drop project with two applications: a Trello-like board and an image uploader.
 
 ## What's included
