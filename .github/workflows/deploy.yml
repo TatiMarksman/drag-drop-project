@@ -6,18 +6,28 @@ on:
   pull_request:
     branches: [ master ]
 
+# Repository seviyesinde izinler
 permissions:
   contents: write
   pages: write
   id-token: write
+  actions: write
 
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
     
+    # Job seviyesinde izinler
+    permissions:
+      contents: write
+      pages: write
+      id-token: write
+    
     steps:
     - name: Checkout
       uses: actions/checkout@v3
+      with:
+        fetch-depth: 0
       
     - name: Setup Node.js
       uses: actions/setup-node@v3
@@ -36,5 +46,7 @@ jobs:
       if: github.ref == 'refs/heads/master'
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
+        # Personal Access Token kullanımı için aşağıdaki satırı kullanın:
+        # personal_token: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
         publish_dir: ./dist
         force_orphan: true

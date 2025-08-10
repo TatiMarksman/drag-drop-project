@@ -1,0 +1,5 @@
+[33mef5d949[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m)[m Restore packageManager field to original state
+[33mf12a873[m Update yarn.lock to fix frozen-lockfile error
+[33m00b4707[m Remove packageManager field to fix Yarn version compatibility
+[33ma4128b0[m Remove Live Demo section from README
+[33mb00ea48[m Add GitHub Actions workflow for automatic deployment
