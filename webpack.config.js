@@ -41,10 +41,12 @@ module.exports = {
     }),
   ],
   devServer: {
-    open: false,
-    port: 3000,
-    historyApiFallback: false,
+    open: true,
+    port: 8080,
+    host: '0.0.0.0',
+    historyApiFallback: true,
     static: { directory: path.join(__dirname, 'public') },
+    hot: true,
   },
   mode: 'development',
 };
